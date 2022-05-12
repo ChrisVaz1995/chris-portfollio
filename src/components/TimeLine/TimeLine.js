@@ -1,12 +1,12 @@
-import React, { useState, useRef, useEffect } from 'react';
+// import React, { useState, useRef, useEffect } from 'react';
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { TimeLineData } from '../../constants/constants';
+// import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
+// import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+// import { TimeLineData } from '../../constants/constants';
 
-const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
+// const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
-const Timeline = () => {
+// const Timeline = () => {
   // const [activeItem, setActiveItem] = useState(0);
   // const carouselRef = useRef();
 
@@ -42,11 +42,11 @@ const Timeline = () => {
   //   window.addEventListener('resize', handleResize);
   // }, []);
 
-  return (
-    <div>
-      Timeline
-    </div>
-  );
-};
+//   return (
+//     <div>
+//       Timeline
+//     </div>
+//   );
+// };
 
-export default Timeline;
+// export default Timeline;

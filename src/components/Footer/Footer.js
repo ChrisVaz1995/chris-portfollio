@@ -6,9 +6,22 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 
 const Footer = () => {
   return (
-    <div>
-      Footer
-    </div>
+    <FooterWrapper>
+      <LinkList>
+        <LinkColumn>
+          <LinkTitle>Email</LinkTitle>
+          <LinkItem href="mailto:christopher.vazquez2015@gmail.com">christopher.vazquez2015@gmail.com</LinkItem>
+        </LinkColumn>
+      </LinkList>
+      <SocialContainer>
+        <SocialIcons href="https://github.com/ChrisVaz1995">
+          <AiFillGithub size="3rem"/>
+        </SocialIcons>
+        <SocialIcons href="https://www.linkedin.com/in/chrisvazquez95/">
+          <AiFillLinkedin size="3rem"/>
+        </SocialIcons>
+      </SocialContainer>
+    </FooterWrapper>
   );
 };
 
